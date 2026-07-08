@@ -1,1 +1,7 @@
 .package.json
+
+js_calculator/node_modules/
+
+js_calculator/package-lock.json
+
+js_calculator/package.json
