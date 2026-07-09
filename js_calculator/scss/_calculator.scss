@@ -1,0 +1,9 @@
+@use 'custom' as *;
+
+.calculator  {
+  border: 1px solid $gray-500;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: $trans-gray-700;
+  box-shadow: $glow-purp 0px 5px 15px;
+}
