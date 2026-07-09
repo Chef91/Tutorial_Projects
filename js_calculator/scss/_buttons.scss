@@ -1,0 +1,27 @@
+@use 'custom' as *;
+
+button  {
+  border: 1px solid $gray-700;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  color: $white;
+  background: $black;
+  background: linear-gradient(0deg,$traffic-dark 0%, $traffic-orange 100%);
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+              rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+              rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+              rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+              rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+}
+.equals-btn  {
+  color: $black;
+  background: linear-gradient(0deg,$traffic-dark 0%, $traffic-green 100%);
+}
+.operator  {
+  color: $black;
+  background: linear-gradient(0deg,$traffic-dark 0%, $traffic-yellow 100%);  
+}

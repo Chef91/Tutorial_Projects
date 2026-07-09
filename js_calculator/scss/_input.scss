@@ -1,0 +1,14 @@
+@use 'custom' as *;
+
+input  {
+  width: 320px;
+  border: 2px solid $trans-gray-900;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 10px 0 20px 0;
+  background-color: $led;
+  box-shadow: $glow-purp inset 0px 30px 60px -12px;
+  font-size: 30px;
+  text-align: right;
+  cursor: pointer;
+}
