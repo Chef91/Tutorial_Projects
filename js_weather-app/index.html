@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JavaScript Weather App</title>
   <link rel="stylesheet" href="/js_weather-app/assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
@@ -12,6 +12,29 @@
     <div class="search">
       <input type="text" placeholder="enter city name" spellcheck="false">
       <button><img src="/js_weather-app/images/magnifying-glass.png"></button>
+    </div>
+    <div class="weather">
+      <div class="weather__current">
+        <img src="/js_weather-app/images/cloud-showers-heavy.png" alt="Rain">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+      </div>
+
+      <div class="weather__humidity">
+        <img src="/js_weather-app/images/aquarius.png" alt="Humidity">
+          <div class="">
+            <h3 class="humidity">50%</h3>
+            <p>Humidity</p>
+          </div>
+      </div>
+      <div class="weather__wind">
+          <img src="/js_weather-app/images/wind.png" alt="Wind">
+          <div>
+            <p class="wind">15 km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
