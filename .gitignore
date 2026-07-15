@@ -11,3 +11,5 @@ js_weather-app/node_modules/
 js_weather-app/package-lock.json
 
 js_weather-app/package.json
+
+.env
