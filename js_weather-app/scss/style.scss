@@ -1,0 +1,45 @@
+// Imports
+@use 'custom' as *;
+@use 'card';
+@use 'search';
+@use 'weather';
+
+// All & Body Area
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body  {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body::before  {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url(/js_weather-app/images/lights-background.webp);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px auto;
+  z-index: -2;
+}
+body::after  {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    $trans-white 0%,
+    $trans-gray-100 25%,
+    $trans-gray-200 45%,
+    $trans-gray-700 55%,
+    $trans-gray-800 65%,
+    $trans-gray-900 75%,
+    $trans-black 100%    
+  );
+  z-index: -1;
+}

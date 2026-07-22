@@ -1,0 +1,13 @@
+@use 'custom' as *;
+
+.card  {
+  margin: 100px auto;
+  padding: 40px 35px;
+  width: 90%;
+  max-width: 470px;
+  color: $white;
+  background: linear-gradient(0deg,$background-dark 10%, $background-light 100%);
+  border: 1px solid $trans-gray-600;
+  border-radius: 20px;
+  text-align: center;
+}

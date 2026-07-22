@@ -5,3 +5,13 @@ js_calculator/node_modules/
 js_calculator/package-lock.json
 
 js_calculator/package.json
+
+js_weather-app/node_modules/
+
+js_weather-app/package-lock.json
+
+js_weather-app/package.json
+
+.env
+
+js_weather-app/config.js
