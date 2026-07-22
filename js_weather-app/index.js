@@ -16,19 +16,19 @@ async function checkWeather(city) {
   document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
   // Image Change by weather
   if(data.weather[0].main === "Clouds"){
-    weatherIcon.src = "/images/cloud.png"
-  }else if(data.weather[0].main === "Rain"){
-    weatherIcon.src = "/images/rain.png"
-  }else if(data.weather[0].main === "Rain"){
-    weatherIcon.src = "/images/rain.png"
-  }else if(data.weather[0].main === "Rain"){
-    weatherIcon.src = "/images/rain.png"
-  }else if(data.weather[0].main === "Rain"){
-    weatherIcon.src = "/images/rain.png"
-  }else if(data.weather[0].main === "Rain"){
-    weatherIcon.src = "/images/rain.png"
-  }else{
-    weatherIcon.src = "/images/rain.png"
+    weatherIcon.src = "/js_weather-app/images/weather/place_penguin_cloud.png"
+  } else if(data.weather[0].main === "Rain"){
+    weatherIcon.src = "/js_weather-app/images/weather/place_penguin_rain.png"
+  } else if(data.weather[0].main === "Thunderstorm"){
+    weatherIcon.src = "/js_weather-app/images/weather/place_penguin_thunder.png"
+  } else if(data.weather[0].main === "Drizzle"){
+    weatherIcon.src = "/js_weather-app/images/weather/place_penguin_drizzle.png"
+  } else if(data.weather[0].main === "Snow"){
+    weatherIcon.src = "/js_weather-app/images/weather/place_penguin_snow.png"
+  } else if(data.weather[0].main === "Extreme"){
+    weatherIcon.src = "/js_weather-app/images/weather/place_penguin_tornado.png"
+  } else{
+    weatherIcon.src = "/js_weather-app/images/weather/place_penguin_clear.png"
   }
 }
 

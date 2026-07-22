@@ -29,7 +29,8 @@
   border-radius: 30px;
   flex: 1;
   margin-right: 16px;
-  font-size: 26px;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 22px;
 }
 .search button {
   padding: 8px 10px;
@@ -59,31 +60,31 @@ button img {
 }
 
 .weather {
-  margin: 30px 0 0 0;
+  margin: 5px 0 0 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "current humidity" "current wind";
   gap: 1.5rem;
   align-items: center;
   gap: 1rem;
+  font-family: "Cabin Sketch", sans-serif;
 }
 .weather__current {
   grid-area: current;
   border-right: 3px groove rgba(104, 100, 100, 0.1607843137);
 }
 .weather__current h1 {
-  margin-top: -20px;
   font-size: 80px;
   font-weight: 500;
 }
 .weather__current h2 {
-  margin-top: -40px;
-  font-size: 45px;
+  margin-top: -20px;
+  font-size: 50px;
   font-weight: 400;
 }
 .weather__current img {
-  width: 100px;
-  height: 100px;
+  width: 280px;
+  height: 220px;
 }
 .weather__humidity {
   padding: 0 0 10px 0;
@@ -91,41 +92,38 @@ button img {
   border-bottom: 3px groove rgba(104, 100, 100, 0.1607843137);
 }
 .weather__humidity h3 {
-  margin-top: -20px;
+  margin-top: -10px;
   font-size: 40px;
   font-weight: 500;
 }
 .weather__humidity p {
-  margin-top: -20px;
+  margin-top: -10px;
   font-size: 25px;
   font-weight: 400;
 }
 .weather__humidity img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 .weather__wind {
   grid-area: wind;
 }
 .weather__wind h3 {
-  margin-top: -10px;
   font-size: 40px;
   font-weight: 500;
 }
 .weather__wind p {
-  margin-top: -10px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 .weather__wind img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Birthstone";
   box-sizing: border-box;
 }
 
